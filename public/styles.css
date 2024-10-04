@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.blog-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.blog-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.form-input {
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-input:focus {
+    border-color: #4299e1;
+    outline: none;
+}
+
+.btn {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
